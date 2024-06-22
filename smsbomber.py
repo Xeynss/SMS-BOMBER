@@ -1,3 +1,8 @@
+import os
+
+
+os.system("clear")
+
 
 
 import subprocess, sys, os
@@ -855,7 +860,7 @@ def send(number, amount, worker_amount):
     restart()
 
 def watermark():
-    print("SMS Tool @Xeynss")
+    print("SMS Tool @Xeynss Yazılım öğretim amaçtır")
 
 def get_number():
     global clear
